@@ -83,6 +83,18 @@ It explains how adversaries exploit **Large Language Models (LLMs)** and provide
 
 ---
 
+## 9. Certifications: 
+
+### The SecOps Group: Certified AI/ML Pentester (C-AI/MLPen)
+- Preparation: Self study on the Labs in Writeups section - https://github.com/ablohith/AI-Security-Playbook/tree/main/Writeups/Gandalf
+- Link: https://pentestingexams.com/certifications/professional/certified-ai-ml-pentester/
+
+### The SecOps Group: Certified Agentic AI Pentester (C-AgAIPen)
+- Preparation: Self study on the Labs in Writeups section - https://github.com/ablohith/AI-Security-Playbook/tree/main/Writeups/Gandalf
+- Link: https://pentestingexams.com/certifications/professional/certified-agentic-ai-pentester/
+
+---
+
 ## 9. Mitigation Strategies
 - Guardrails + external validation
 - Restricting sensitive actions
