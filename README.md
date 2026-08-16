@@ -112,19 +112,19 @@ It explains how adversaries exploit **Large Language Models (LLMs)** and provide
 ## References & Useful Links:
 
 ### Standards:
-**LLM01:2025 Prompt Injection** https://genai.owasp.org/llmrisk/llm01-prompt-injection/ 
-**LLM07:2025 System Prompt Leakage** https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/
-**LLM Prompt Injection: Direct MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0051.000 
-**LLM Prompt Injection: Indirect MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0051.001
-**LLM Jailbreak Injection: Direct MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0054
+- **LLM01:2025 Prompt Injection** https://genai.owasp.org/llmrisk/llm01-prompt-injection/
+- **LLM07:2025 System Prompt Leakage** https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/
+- **LLM Prompt Injection: Direct MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0051.000
+- **LLM Prompt Injection: Indirect MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0051.001
+- **LLM Jailbreak Injection: Direct MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0054
 
-###References
-https://learnprompting.org/docs/prompt_hacking/injection 
-https://github.com/Cranot/chatbot-injections-exploits
-https://oza1r.medium.com/defeat-gandalf-the-powerful-ai-wizard-in-2-hours-writeup-fe8ee45be5a3
-https://news.ycombinator.com/item?id=36094426
-https://ctf.support/misc/prompt-injection/
-https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Prompt%20Injection/README.md#story-generation
+### References
+- https://learnprompting.org/docs/prompt_hacking/injection 
+- https://github.com/Cranot/chatbot-injections-exploits
+- https://oza1r.medium.com/defeat-gandalf-the-powerful-ai-wizard-in-2-hours-writeup-fe8ee45be5a3
+- https://news.ycombinator.com/item?id=36094426
+- https://ctf.support/misc/prompt-injection/
+- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Prompt%20Injection/README.md#story-generation
 
 
 ## 10. Conclusion
