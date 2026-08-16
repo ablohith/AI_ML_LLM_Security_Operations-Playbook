@@ -1,4 +1,4 @@
-# 🛡️ AI-Security-Playbook
+# 🛡️ AI/ML-Security-Playbook
 
 A comprehensive guide to **AI & ML security** — covering fundamentals, risks, and defenses.  
 Includes introductions to AI security concepts, walkthroughs of **LLM injection** and **Prompt Injection labs**, the **LLM Top 10 vulnerabilities**, hands-on tools, and practical mitigation strategies. Designed for researchers, developers, and security professionals working to secure AI systems.
