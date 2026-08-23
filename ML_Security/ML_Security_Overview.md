@@ -27,3 +27,7 @@ This section outlines the **OWASP Top 10 ML security risks** for AI, ML, and LLM
 | ML10    | Model Poisoning               | Model weights manipulated to degrade performance or add backdoors.               | Manipulating neural network weights to force misclassification | Secure training pipelines, integrity monitoring  | [Nave Security FDA Checklist](https://resources.navesecurity.com/fda-documentation-checklist-641102) |
 
 ---
+
+## References
+
+- https://owasp.org/www-project-machine-learning-security-top-10/
