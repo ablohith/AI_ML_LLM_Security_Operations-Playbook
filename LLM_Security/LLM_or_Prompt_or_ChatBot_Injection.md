@@ -76,6 +76,36 @@ The attack enabled the setting `"chat.tools.autoApprove": true`, allowing the AI
 - This attack pattern of using prompt injection to modify system configurations became a signature technique in 2025.  
 - It represented a new class of **privilege escalation attacks** unique to AI systems.
 
-🔗 [Reference: CVE-2025-53773 Copilot Prompt Injection](https://rehberger
+🔗 [Reference: CVE-2025-53773 Copilot Prompt Injection](https://rehberger.de/blog/copilot-prompt-injection)
 
 ---
+
+### 🔒 ChatGPT: The Azure Backdoor
+Rehberger’s research revealed how ChatGPT’s **domain allow-listing mechanism** could be exploited.  
+The system allowed images from `*.windows.net` domains, but attackers discovered they could create Azure storage buckets on `*.blob.core.windows.net` with logging enabled.
+
+- This allowed invisible Markdown images to **exfiltrate private chat histories and stored memories**.  
+- The result was a massive privacy breach affecting millions of users.
+
+🔗 [Reference: ChatGPT Azure Backdoor](https://rehberger.de/blog/chatgpt-azure-prompt-injection)
+
+---
+
+### 🧑‍💻 Google Jules: The Complete Compromise
+Perhaps most alarming was the discovery that Google’s **Jules coding agent** had virtually no protection against prompt injections.  
+Rehberger demonstrated a complete **“AI Kill Chain”**, from initial prompt injection to full remote control of the system.
+
+- Jules had **unrestricted outbound internet connectivity**, meaning once compromised, it could be used for any malicious purpose.  
+- It was also vulnerable to **invisible prompt injection** using hidden Unicode characters, meaning users could unknowingly submit malicious instructions embedded in seemingly innocent text.
+
+🔗 [Reference: Google Jules Prompt Injection](https://rehberger.de/blog/google-jules-prompt-injection)
+
+---
+
+### 💸 Devin AI: The $500 Lesson
+Rehberger spent **$500 of his own money** testing Devin AI’s security and found it completely defenseless against prompt injection.
+
+- The asynchronous coding agent could be manipulated to expose ports to the internet, leak access tokens, and install command-and-control malware.  
+- All of this was achieved through carefully crafted prompts.
+
+🔗 [Reference: Devin AI Prompt Injection](https://rehberger.de/blog/devin-ai-prompt-injection)
