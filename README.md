@@ -1,59 +1,46 @@
-# 🛡️ AI/ML-Security-Playbook
+# 🛡️ AI / ML / LLM Security-Playbook
 
-A comprehensive guide to **AI & ML security** — covering fundamentals, risks, and defenses.  
-Includes introductions to AI security concepts, walkthroughs of **LLM injection** and **Prompt Injection labs**, the **LLM Top 10 vulnerabilities**, hands-on tools, and practical mitigation strategies. Designed for researchers, developers, and security professionals working to secure AI systems.
 
-Designed for researchers, developers, and security professionals working to secure AI systems.
+This document provides a structured overview of **AI Security**, **ML Security**, and **LLM Security**, along with operational practices (AISecOps, MLSecOps, LLMSecOps) and tools/frameworks for security testing.
+
+-  Covering fundamentals, risks, and defenses.
+-  Includes introductions to Basics, Security concepts, Walkthroughs, Top 10 vulnerabilities, Hands-on tools, and practical mitigation strategies.
+-  Designed for researchers, developers, and security professionals working to secure AI systems.
+-  This playbook introduces the growing field of **AI Security**.
 
 ---
 
 ## 📖 Table of Contents
-1. Introduction
-2. AI & AIML Security Overview
-3. LLM Injection
-4. LLM Top 10 Risks
-5. Prompt Injection
-6. Prompt Injection Lab Write-Up
-7. Tools & Frameworks
-8. Mitigation Strategies
-9. Conclusion
+1. AI Security
+2. LLM Security
+3. AIML Security Overview
+4. AISecOps / MLSecOps / LLM_SecOps
+5. Tools & Frameworks
+6. Conclusion
 
 ---
+# 🤖 AI Security
 
-## 1. Introduction
-This playbook introduces the growing field of **AI Security**.  
-It explains how adversaries exploit **Large Language Models (LLMs)** and provides defensive techniques to mitigate risks.
+AI Security focuses on protecting artificial intelligence systems from threats such as:
 
----
+- **Data poisoning** (malicious training data)
+- **Model inversion** (extracting sensitive data from models)
+- **Adversarial attacks** (inputs crafted to mislead AI)
+- **Prompt injection** (manipulating LLM instructions)
 
-## 2. AI & AIML Security Overview
-- Threat landscape for AI/ML systems
-- Data poisoning, model inversion, adversarial examples
-- Risks of untrusted inputs and outputs
 
----
-
-## 3. LLM Injection
-- Definition: manipulating prompts to override system instructions
-- Examples of direct and indirect injection
-- Real-world implications: data leakage, bypassing guardrails
 
 ---
+# 🗣️ LLM Security
 
-## 4. LLM Top 10 Risks
+LLM Security addresses risks specific to **Large Language Models**:
 - Inspired by OWASP Top 10, adapted for LLMs
 - Includes Prompt Injection, Data Exfiltration, Model Misuse, Insecure Plugins, etc.
+- **Prompt Injection** (Malicious input overriding system instructions), **Data Leakage** (Sensitive information revealed unintentionally), **Model Misuse** (Using LLMs for harmful or unintended purposes)
+- **Categories** Direct and Indirect injection
+- Real-world implications: data leakage, bypassing guardrails
 
----
-
-## 5. Prompt Injection
-- Attack vectors: direct, indirect, chained
-- Techniques: role-play, encoding tricks, obfuscation
-- Detection challenges
-
----
-
-## 6. 🧪 Prompt Injection Lab Write‑Ups
+## 🧪 Prompt Injection Lab Write‑Ups
 ### Objectives
 - Understand prompt injection attacks
 - Explore **LLM Top 10 risks**
@@ -67,24 +54,60 @@ It explains how adversaries exploit **Large Language Models (LLMs)** and provide
 4. Advanced techniques — encoding, multi-step bypass
 5. Success — document the injection that revealed the secret
 
-### Analysis
-- Why the injection worked
-- Which LLM Top 10 risk it maps to
-- Real-world impact
 
+---
+##  📊 AIML Security Overview
+Covers security across **AI and ML pipelines**:
+- **Supervised Learning**: Risks from mislabeled or poisoned datasets
+- **Unsupervised Learning**: Risks from clustering manipulation
+- **Reinforcement Learning**: Risks from reward hacking
+- **Deep Learning**: Vulnerabilities in neural networks (e.g., adversarial examples)
 
 ---
 
-
-## 8. Tools & Frameworks
-- **Bearer CLI** — security scanning
-- **SecureFlag Labs** — hands-on training
-- **Custom scanners** — detect risky code and prompts
+## ⚙️ AISecOps / MLSecOps / LLMSecOps
+Operational practices for embedding security into AI/ML/LLM workflows:
+- **AISecOps**: Security practices across AI systems
+- **MLSecOps**: Secure ML lifecycle (data, training, deployment)
+- **LLMSecOps**: Guardrails, monitoring, and defenses for LLMs
+- Focus on **continuous monitoring**, **incident response**, and **secure deployment pipelines**
 
 ---
 
-## 9. Certifications: 
+## 🛠️ Tools & Frameworks for Security Testing
 
+### For AI Security
+- **Adversarial Robustness Toolbox (ART)** — IBM framework for testing adversarial attacks
+- **CleverHans** — Library for adversarial example generation
+- **AI Fairness 360** — Bias detection and mitigation
+
+### For ML Security
+- **TensorFlow Privacy** — Differential privacy for ML models
+- **MLflow Security Extensions** — Secure experiment tracking
+- **SecureFlag Labs** — Hands-on ML vulnerability labs
+
+### For LLM Security
+- **Bearer CLI** — Security scanning for AI/LLM applications  
+  🔗 [Bearer CLI Rules](https://docs.bearer.com/reference/rules)
+- **Guardrails AI** — Framework for safe LLM outputs
+- **LangChain Security Modules** — Secure prompt and tool integration
+
+### For MLSecOps / LLMSecOps / AISecOps
+- **Nave Security FDA Checklist** — Documentation and compliance guidance  
+  🔗 [FDA Documentation Checklist](https://resources.navesecurity.com/fda-documentation-checklist-641102)
+- **SecureFlag Knowledge Base** — Vulnerability references (e.g., NoSQL Injection)  
+  🔗 [NoSQL Injection Vulnerability](https://knowledge-base.secureflag.com/vulnerabilities/nosql_injection/nosql_injection_vulnerability.html)
+- **OWASP AI Security Top 10** — Community-driven list of AI/ML/LLM risks
+- **Custom Security Dashboards** — For monitoring scan results and compliance
+
+---
+
+## Certifications: 
+
+### EC-Council’s Certified Ethical Hacker (C|EH) v13
+- The Leading Ethical Hacking Course with AI Integration 
+- Link: https://ethicalhacking.eccouncil.org/certified-ethical-hacker-ceh-v13-international
+  
 ### The SecOps Group: Certified AI/ML Pentester (C-AI/MLPen)
 - Preparation: Self study on the Labs in Writeups section - https://github.com/ablohith/AI-Security-Playbook/tree/main/Writeups/Gandalf
 - Link: https://pentestingexams.com/certifications/professional/certified-ai-ml-pentester/
@@ -95,38 +118,45 @@ It explains how adversaries exploit **Large Language Models (LLMs)** and provide
 
 ---
 
-## 9. Mitigation Strategies
-- Guardrails + external validation
-- Restricting sensitive actions
-- Monitoring suspicious prompt patterns
-- Educating users about risks
+## Mitigation Strategies
+-
+| **Threat** | **Description** | **Mitigation Strategy** |
+| --- | --- | --- |
+| Prompt Injection | Malicious input overrides system instructions | Guardrails, input sanitization, external filters |
+| Data Poisoning | Corrupted training data manipulates model behavior | Data validation, provenance tracking |
+| Model Inversion | Extracting sensitive training data from models | Differential privacy, access controls |
+| Adversarial Examples | Crafted inputs mislead ML/AI models | Adversarial training, robustness testing |
+| Data Leakage | Sensitive info unintentionally revealed | Output filtering, redaction, monitoring |
+| Reward Hacking (RL) | Exploiting reward signals in reinforcement learning | Secure reward design, simulation testing |
+| Plugin/Tool Abuse (LLM) | Exploiting integrations with external systems | Sandboxing, strict allow-listing, monitoring |
+| Privilege Escalation | Prompt injection modifies system configurations | Least privilege, config hardening, audit trails |
 
-### Generic Mitigation
-- Input validation
-- Layered defenses
-- Restricting sensitive actions
-- Monitoring suspicious prompts
-- Tools: Bearer CLI, SecureFlag labs, custom scanners
 ---
 
-## References & Useful Links:
-
 ### Standards:
+- https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_1.pdf
 - **LLM01:2025 Prompt Injection** https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 - **LLM07:2025 System Prompt Leakage** https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/
 - **LLM Prompt Injection: Direct MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0051.000
 - **LLM Prompt Injection: Indirect MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0051.001
 - **LLM Jailbreak Injection: Direct MITRE ATLAS** https://atlas.mitre.org/techniques/AML.T0054
 
-### References
+### References & Useful Links
+
 - https://learnprompting.org/docs/prompt_hacking/injection 
 - https://github.com/Cranot/chatbot-injections-exploits
 - https://oza1r.medium.com/defeat-gandalf-the-powerful-ai-wizard-in-2-hours-writeup-fe8ee45be5a3
 - https://news.ycombinator.com/item?id=36094426
 - https://ctf.support/misc/prompt-injection/
 - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Prompt%20Injection/README.md#story-generation
+- [Bearer CLI Rules](https://docs.bearer.com/reference/rules)  
+- [FDA Documentation Checklist – Nave Security](https://resources.navesecurity.com/fda-documentation-checklist-641102)  
+- [NoSQL Injection Vulnerability – SecureFlag](https://knowledge-base.secureflag.com/vulnerabilities/nosql_injection/nosql_injection_vulnerability.html)  
+- [Unsafe Code Reference – Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code)
 
+---
 
-## 10. Conclusion
+## Conclusion
 LLMs are powerful but vulnerable.  
 By studying labs like Gandalf and applying defensive strategies, we can build **secure AI systems** that resist manipulation.
+
