@@ -28,8 +28,15 @@ AI Security focuses on protecting artificial intelligence systems from threats s
 - **Adversarial attacks** (inputs crafted to mislead AI)
 - **Prompt injection** (manipulating LLM instructions)
 
-
-
+---
+## 📊 AIML Security Overview
+Covers security across **AI and ML pipelines**:
+- **Supervised Learning**: Risks from mislabeled or poisoned datasets
+- **Unsupervised Learning**: Risks from clustering manipulation
+- **Reinforcement Learning**: Risks from reward hacking
+- **Deep Learning**: Vulnerabilities in neural networks (e.g., adversarial examples)
+- OWASP ML Top 10 2023
+  
 ---
 # 🗣️ LLM Security
 
@@ -119,7 +126,7 @@ Operational practices for embedding security into AI/ML/LLM workflows:
 ---
 
 ## Mitigation Strategies
--
+
 | **Threat** | **Description** | **Mitigation Strategy** |
 | --- | --- | --- |
 | Prompt Injection | Malicious input overrides system instructions | Guardrails, input sanitization, external filters |
