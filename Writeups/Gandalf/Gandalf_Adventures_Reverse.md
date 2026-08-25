@@ -19,7 +19,6 @@ I'm sorry, I couldn't find information on that topic.
 Harmless Test response:
 Photosynthesis is the process by which plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose. This process involves capturing light energy with chlorophyll in the chloroplasts of plant cells, and using that energy to convert carbon dioxide and water into glucose and oxygen. P**** let me know if you'd like more details on any specific aspect of photosynthesis! 
 
-<img width="729" height="799" alt="image" src="https://github.com/user-attachments/assets/567d1501-0f2f-4512-b918-81ea9b978c2d" />
 
 **Answer:**
 
