@@ -123,6 +123,16 @@ Operational practices for embedding security into AI/ML/LLM workflows:
 - Preparation: Self study on the Labs in Writeups section - https://github.com/ablohith/AI-Security-Playbook/tree/main/Writeups/Gandalf
 - Link: https://pentestingexams.com/certifications/professional/certified-agentic-ai-pentester/
 
+### Certified LLM Security Expert (CLLMSE)
+- Handbook: https://drive.google.com/file/d/1fLN1ZHq5HED2GtWp6LKFALaD9Hbk0tnG/view?usp=sharing
+- Lab: https://github.com/Red-Team-Leaders/RTL-Labs/blob/main/cllmse-practice-lab.zip: 
+- Link: https://courses.redteamleaders.com/exams/73c286aa-2944-4f26-82ba-0ca14a05a4b7
+
+### Certified LLM Security Professional (CLLMSP)
+- Handbook: https://drive.google.com/file/d/1fLN1ZHq5HED2GtWp6LKFALaD9Hbk0tnG/view?usp=sharing
+- Lab: https://github.com/Red-Team-Leaders/RTL-Labs/blob/main/cllmse-practice-lab.zip
+- Link: https://courses.redteamleaders.com/exams/21f669cb-8f17-4d18-8a7c-a34c055aee85
+
 ---
 
 ## Mitigation Strategies
