@@ -174,6 +174,29 @@ Operational practices for embedding security into AI/ML/LLM workflows:
 ---
 
 ## Conclusion
+
 LLMs are powerful but vulnerable.  
 By studying labs like Gandalf and applying defensive strategies, we can build **secure AI systems** that resist manipulation.
 
+---
+
+## 🤝 Collaborators
+
+We welcome contributions from the community!  
+If you'd like to collaborate on this project, please follow the steps below:
+
+| 👤 **Role** | 🧠 **Responsibilities** | 🛠️ **Access / Permissions** | 📬 **Contact / GitHub Handle** |
+|-------------|--------------------------|------------------------------|--------------------------------|
+| **Project Owner** | Maintains repository, reviews pull requests, manages releases | Full access | [@ablohith](https://github.com/ablohith) |
+| **Contributor** | Adds new features, improves documentation | Write access via fork & PR | [@Arun1501](https://github.com/Arun1501) |
+
+
+---
+
+### 🏷️ Collaborator Entry
+```yaml
+Name: Arunkumar SR
+Role: Security Researched
+Github: https://github.com/Arun1501
+Responsibility: Walkthrough Writeups, Prompts & Techniques
+```
